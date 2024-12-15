@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Montserrat";
+}
+body{
+    background-color: rgb(234, 233, 233);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+}
+.header i{
+    display: none;
+}
+.header ul{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    list-style: none;
+}
+
+.btnLogin{
+    background-color: #204E51;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    color: white;
+}
+.btnSign{
+    background-color: white;
+    padding: 13px 45px;
+    border: 2px solid #204E51;
+    border-radius: 8px;
+    font-size: 22px;
+    color: #204E51;
+}
+
+.hero{
+    background-color: coral;
+    height: 400px;
+    padding: 40px 100px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(89, 180, 255, 0.6), rgba(0, 255, 42, 0.6)), url(/asistes/public-square-with-empty-road-floor-downtown.jpg);
+    background-size: cover;
+}
+.hero h1{
+    padding-top: 40px;
+    font-size: 50px;
+}
+.hero p{
+    padding-bottom: 30px;
+}
+
+.parent{
+    background-color: rgb(248, 247, 247);
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px;
+    
+}
+.left h1{
+    width: 500px;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.left p{
+    padding-bottom: 30px;
+}
+.right{
+    position: relative;
+}
+.right img{
+    width: 450px;
+    height: 430px;
+    border-radius: 8px;
+}
+.right h2{
+    position: absolute;
+    bottom: -20px;
+    left: 150px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    box-shadow: 0px 5px 20px 0px;
+}
+
+.Services{
+    text-align: center;
+    margin: 60px 0px;
+}
+.Services h1{
+    font-size: 70px;
+}
+.Services p{
+    margin: 20px 350px;
+    font-size: 20px;
+}
+
+.imges{
+    display: flex;
+    text-align: center;
+    display: flex;
+    grid: 20px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.service1{
+    background-color: white;
+    font-size: 12px;
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 6px gray;
+    margin-bottom: 70px;
+}
+.service1 h1{
+    padding-top: 20px;
+
+}
+.service1 i{
+    font-size: 150px;
+}
+
+
+.service2{
+    background-color: white;
+    font-size: 8px;
+    width: 250px;
+    height: 400px;
+    border-radius: 12px;
+    margin-bottom: 70px;
+    box-shadow: 0px 15px 20px 0px gray;
+}
+.service2 h1{
+    padding-top: 20px;
+}
+.service2 p{
+    font-size: 18px;
+}
+.Product-parent{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.service2 img{
+    margin: 20px 0px 20px 0px;
+    width: 200px;
+    height: 130px;
+    border-radius: 18px ;
+}
+.sustain{
+    height: 400px;
+    padding-top: 140px;
+    padding-left: 90px;
+    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(/asistes/public-square-with-empty-road-floor-downtown.jpg);
+    background-size: cover;
+    color: white;
+}
+.sustain h1{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.benefit-right{
+    background-color: #204E51;
+    width: 500px;
+    height: 600px;
+    border-radius: 18px;
+    color: white;
+}
+.benefit-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+}
+.benefit-left{
+    width: 550px;
+    margin-top: 150px;
+}
+.benefit-left h1{
+    font-size: 40px;
+    color: #204E51;
+    font-weight: bold;
+}
+.benefit-left p{
+    padding: 20px 0px;
+}
+
+.icon{
+    margin: 50px 40px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.icon i{ 
+    color: white; 
+    font-size: 40px;
+}
+
+.revio{
+    width: 100%;
+    height: 300px;
+    background-color: #204E51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+.revi{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    color: #204E51;
+    
+}
+.revi span{
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    padding: 0px 10px;
+    box-shadow: 0px 5px 10px gray;
+}
+.t-parent {
+    display: grid;
+    grid-template-columns: 50px 900px 50px;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.revio i{
+    padding-bottom: 20px;
+    color: rgb(255, 208, 0); 
+    font-size: 30px;
+}
+.revio h5{
+    width: 400px;
+    padding-top: 20px;
+    font-weight: 400;
+    
+}
+.revio p{
+    color: gray;
+    padding-top: 20px;
+}
+
+.i1{
+    width: 350px;
+}
+.i1 img{
+
+    width: 300px;
+    height: 350px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+.section5{
+    margin-top: 70px;
+    display: flex;
+    margin: 20px 80px;
+    gap: 35px;
+}
+
+.foot{
+    margin-top: 40px;
+    background-color: #204E51;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 80px;
+}
+.left-foot{
+    display: grid;
+}
+
+.left-foot p{
+    width: 320px;
+}
+.ico{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.icon-foot{
+    display: flex;
+    gap: 10px;
+}
+.right-foot{
+    display: flex;
+    gap: 50px;
+}
+.l1 ul li{
+    list-style: none;
+    margin: 5px 0px 0px -40px;
+    font-size: 12px;
+    padding-top: 0px;
+}
+
+@media screen and (max-width:600px){
+    .header{
+        padding: 20px;
+    }
+    .header ul{
+        display: none;
+
+    }
+    .header button{
+        display: none;
+    }
+    .header h1{
+        font-size: 26px;
+    }
+    .header i{
+        display: initial;
+        font-size: 22px;
+        margin-left: 80px;
+    }
+    .hero{
+        padding: 15px;
+    }
+    .hero h1{
+        font-size: 20px;
+    }
+    .hero p{
+        margin: 30px 0px;
+    }
+    .btnLogin{
+        margin-bottom: 15px;
+    }
+    .parent{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .parent h1{
+        font-size: 25px;
+        width: 400px;
+    }
+    .right img{
+        width: 350px;
+        height: 200px;
+    }
+    .right h2{
+        left: 100px;
+    }
+    /* .Services{
+        margin-top: 80px;
+    } */
+    .Services h1{
+        font-size: 38px;
+    }
+    .Services p{
+        margin: 10px;
+    }
+    .imges{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 20px;
+        gap: 10px;
+    }
+    .service1{
+        width: 350px;
+        margin-top: -30px;
+    }
+    .Product-parent{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .service2{
+        width: 350px;
+        height: 330px;
+        margin-top: -30px;
+    }
+    .sustain{
+        width: 350px;
+        padding: 20px;
+    }
+    .sustain h1{
+        font-size: 32px;
+        
+    }
+    .benefit-parent{
+        flex-direction: column;
+        padding: 0px;
+        margin: 20px;
+    }
+    .benefit-left, .benefit-right{
+        width: 350px;
+    }
+    .benefit-left h1{
+        font-size: 40px;
+    }
+    .t-parent{
+        grid-template-columns: 20px 250px 20px;
+    }
+    .right2{
+        height: 200px ;
+    }
+    .left2 img{
+        width: 50px;
+        height: 50px;
+    }
+    .right2 i{
+        font-size: 20px;
+        margin-top: 60px;
+    }
+    .section5{
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 30px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .section5 p{
+        font-size: 12px;
+        margin: 10px 0px;
+    }
+    .section5 h1{
+        font-size: 10px;
+    }
+}
+
